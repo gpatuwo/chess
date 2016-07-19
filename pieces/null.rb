@@ -1,15 +1,4 @@
 require "singleton"
-
-class Piece
-  def present?
-    true
-  end
-
-  def to_s
-    " x "
-  end
-end
-
 class NullPiece
   include Singleton
   def present?

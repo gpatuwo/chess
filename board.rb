@@ -1,4 +1,4 @@
-require_relative "piece"
+require_relative "pieces"
 
 class Board #1. make grid 2.populate grid 3. moves pieces (if valid move from Pieces) 4. game over?
   # def self.populate_board(board)
